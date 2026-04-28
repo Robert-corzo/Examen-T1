@@ -62,7 +62,7 @@ def ordSeleccionTotal(lst):
 lista = []
 
 while True:
-    opc=int(input("1-Agregar, 2-Listar, 3-Borrar codigo, 4-Buscar por sueldo, 5-Puesto contratar, 9-Salir --->"))
+    opc=int(input("1-Agregar, 2-Listar, 3-Borrar codigo, 4-Buscar por sueldo, 5-Puesto contratar, 6-Salir --->"))
 
     if opc == 1:
         codigo = int(input("Codigo: "))
@@ -132,6 +132,6 @@ while True:
 
         print("Total usado:", total)
 
-    elif opc == 9:
+    elif opc == 6:
         print("Fin")
         break
